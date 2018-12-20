@@ -26,6 +26,7 @@ class CompanyDetailVC: UIViewController {
                                    UIImage(named: "six.png")!]
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Company Details"
         imageView.image = companyLogo[company.id! - 1]
         idLabel.text = String(company.id!)
         jobIDLabel.text = String(company.job_id!)

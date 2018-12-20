@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Alamofire and Gloss"
         NetworkingService.networkCall.getCompanies { (companies) in
             self.companies = companies
             self.tableView.reloadData()
