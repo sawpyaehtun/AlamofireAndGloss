@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var companies = [Company] ()
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController : UITableViewDataSource
+extension MainVC : UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return companies.count
@@ -51,7 +51,7 @@ extension ViewController : UITableViewDataSource
     
 }
 
-extension ViewController : UITableViewDelegate
+extension MainVC : UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "headerCell") as! HeaderTableViewCell
