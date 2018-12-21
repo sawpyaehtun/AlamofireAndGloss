@@ -31,7 +31,7 @@ class CompanyDetailVC: UIViewController {
         idLabel.text = String(company.id!)
         jobIDLabel.text = String(company.job_id!)
         priorityLabel.text = String(company.priority!)
-        companyLabel.text = String(company.company!)
+        companyLabel.text = company.company!
         latitudeLabel.text = String(company.geolocation!.latitude!)
         longitudeLabel.text = String(company.geolocation!.longitude!)
     }

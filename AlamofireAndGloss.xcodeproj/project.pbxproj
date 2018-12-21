@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373E47FE21CB99AD00922343 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */; };
 		379ED5CA21C9FEE800122987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5C921C9FEE800122987 /* AppDelegate.swift */; };
-		379ED5CC21C9FEE800122987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5CB21C9FEE800122987 /* ViewController.swift */; };
+		379ED5CC21C9FEE800122987 /*  MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5CB21C9FEE800122987 /*  MainVC.swift */; };
 		379ED5CF21C9FEE800122987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379ED5CD21C9FEE800122987 /* Main.storyboard */; };
 		379ED5D121C9FEEA00122987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379ED5D021C9FEEA00122987 /* Assets.xcassets */; };
 		379ED5D421C9FEEA00122987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379ED5D221C9FEEA00122987 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 		379ED5FA21CA036F00122987 /* Geolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5F921CA036F00122987 /* Geolocation.swift */; };
 		379ED5FC21CA03C700122987 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5FB21CA03C700122987 /* NetworkingService.swift */; };
 		379ED5FE21CA0FD900122987 /* CompanyDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5FD21CA0FD900122987 /* CompanyDetailVC.swift */; };
+		37FE419C21CCDE3E00962019 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FE419B21CCDE3E00962019 /* TableViewCell.swift */; };
 		4FEFA5C63A731A9F96912D43 /* Pods_AlamofireAndGlossUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E1B36766E8595B760A55 /* Pods_AlamofireAndGlossUITests.framework */; };
 		553348F108117F3AAB5024E1 /* Pods_AlamofireAndGloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386A344624F40C391AE3A26 /* Pods_AlamofireAndGloss.framework */; };
 		62F297461ACB6C29836D8772 /* Pods_AlamofireAndGlossTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60178604255E8BA323FBB8F /* Pods_AlamofireAndGlossTests.framework */; };
@@ -42,9 +44,10 @@
 
 /* Begin PBXFileReference section */
 		1386A344624F40C391AE3A26 /* Pods_AlamofireAndGloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireAndGloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		379ED5C621C9FEE800122987 /* AlamofireAndGloss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireAndGloss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379ED5C921C9FEE800122987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		379ED5CB21C9FEE800122987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		379ED5CB21C9FEE800122987 /*  MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MainVC.swift"; sourceTree = "<group>"; };
 		379ED5CE21C9FEE800122987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		379ED5D021C9FEEA00122987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379ED5D321C9FEEA00122987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		379ED5F921CA036F00122987 /* Geolocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geolocation.swift; sourceTree = "<group>"; };
 		379ED5FB21CA03C700122987 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		379ED5FD21CA0FD900122987 /* CompanyDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailVC.swift; sourceTree = "<group>"; };
+		37FE419B21CCDE3E00962019 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		4342D04E4DEA5E0CB17FD8C0 /* Pods-AlamofireAndGloss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireAndGloss.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireAndGloss/Pods-AlamofireAndGloss.release.xcconfig"; sourceTree = "<group>"; };
 		6A13E1B36766E8595B760A55 /* Pods_AlamofireAndGlossUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireAndGlossUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F7D16521DA449FA6ED93E6 /* Pods-AlamofireAndGloss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireAndGloss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireAndGloss/Pods-AlamofireAndGloss.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,16 +126,11 @@
 		379ED5C821C9FEE800122987 /* AlamofireAndGloss */ = {
 			isa = PBXGroup;
 			children = (
-				379ED5C921C9FEE800122987 /* AppDelegate.swift */,
-				379ED5CB21C9FEE800122987 /* ViewController.swift */,
-				379ED5CD21C9FEE800122987 /* Main.storyboard */,
-				379ED5D021C9FEEA00122987 /* Assets.xcassets */,
-				379ED5D221C9FEEA00122987 /* LaunchScreen.storyboard */,
-				379ED5D521C9FEEA00122987 /* Info.plist */,
-				379ED5F721CA034700122987 /* Company.swift */,
-				379ED5F921CA036F00122987 /* Geolocation.swift */,
-				379ED5FB21CA03C700122987 /* NetworkingService.swift */,
-				379ED5FD21CA0FD900122987 /* CompanyDetailVC.swift */,
+				37FE419A21CCDE0C00962019 /* Views */,
+				37FE419921CCDCC700962019 /* Network */,
+				37FE419821CCDC8800962019 /* SupportFiles */,
+				37FE419621CCDC3000962019 /* Controllers */,
+				37FE419521CCDC1D00962019 /* Models */,
 			);
 			path = AlamofireAndGloss;
 			sourceTree = "<group>";
@@ -152,6 +151,53 @@
 				379ED5EB21C9FEEA00122987 /* Info.plist */,
 			);
 			path = AlamofireAndGlossUITests;
+			sourceTree = "<group>";
+		};
+		37FE419521CCDC1D00962019 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				379ED5F921CA036F00122987 /* Geolocation.swift */,
+				379ED5F721CA034700122987 /* Company.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37FE419621CCDC3000962019 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				379ED5FD21CA0FD900122987 /* CompanyDetailVC.swift */,
+				379ED5CB21C9FEE800122987 /*  MainVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37FE419821CCDC8800962019 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				379ED5D521C9FEEA00122987 /* Info.plist */,
+				379ED5C921C9FEE800122987 /* AppDelegate.swift */,
+				379ED5CD21C9FEE800122987 /* Main.storyboard */,
+				379ED5D021C9FEEA00122987 /* Assets.xcassets */,
+				379ED5D221C9FEEA00122987 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		37FE419921CCDCC700962019 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				379ED5FB21CA03C700122987 /* NetworkingService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		37FE419A21CCDE0C00962019 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */,
+				37FE419B21CCDE3E00962019 /* TableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5C37D8ADB11E88935EB8688A /* Pods */ = {
@@ -406,8 +452,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				379ED5FC21CA03C700122987 /* NetworkingService.swift in Sources */,
+				37FE419C21CCDE3E00962019 /* TableViewCell.swift in Sources */,
 				379ED5FA21CA036F00122987 /* Geolocation.swift in Sources */,
-				379ED5CC21C9FEE800122987 /* ViewController.swift in Sources */,
+				379ED5CC21C9FEE800122987 /*  MainVC.swift in Sources */,
+				373E47FE21CB99AD00922343 /* HeaderTableViewCell.swift in Sources */,
 				379ED5FE21CA0FD900122987 /* CompanyDetailVC.swift in Sources */,
 				379ED5CA21C9FEE800122987 /* AppDelegate.swift in Sources */,
 				379ED5F821CA034800122987 /* Company.swift in Sources */,
@@ -587,7 +635,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlamofireAndGloss/Info.plist;
+				INFOPLIST_FILE = AlamofireAndGloss/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,7 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlamofireAndGloss/Info.plist;
+				INFOPLIST_FILE = AlamofireAndGloss/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
