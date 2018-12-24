@@ -11,7 +11,6 @@ import Foundation
 struct Geolocation {
     let latitude : Double?
     let longitude : Double?
-    
     init(lat : Double?, longi : Double?) {
         self.latitude = lat
         self.longitude = longi

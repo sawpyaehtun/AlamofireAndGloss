@@ -9,6 +9,7 @@
 import UIKit
 
 class CompanyDetailVC: UIViewController {
+    
     @IBOutlet weak var idLabel: UILabel!
     @IBOutlet weak var jobIDLabel: UILabel!
     @IBOutlet weak var priorityLabel: UILabel!
@@ -35,6 +36,4 @@ class CompanyDetailVC: UIViewController {
         latitudeLabel.text = String(company.geolocation!.latitude!)
         longitudeLabel.text = String(company.geolocation!.longitude!)
     }
-
-
 }

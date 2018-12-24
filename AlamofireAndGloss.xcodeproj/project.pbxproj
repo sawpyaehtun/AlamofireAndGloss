@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		373E47FE21CB99AD00922343 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */; };
+		3748602121D0A8F400C922E7 /* ViewLogoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748602021D0A8F400C922E7 /* ViewLogoVC.swift */; };
+		3748602321D0E78400C922E7 /* CompanyDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748602221D0E78400C922E7 /* CompanyDataVC.swift */; };
+		3748602521D0F5BC00C922E7 /* BottonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748602421D0F5BC00C922E7 /* BottonView.swift */; };
 		379ED5CA21C9FEE800122987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5C921C9FEE800122987 /* AppDelegate.swift */; };
 		379ED5CC21C9FEE800122987 /*  MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379ED5CB21C9FEE800122987 /*  MainVC.swift */; };
 		379ED5CF21C9FEE800122987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379ED5CD21C9FEE800122987 /* Main.storyboard */; };
@@ -45,6 +48,9 @@
 /* Begin PBXFileReference section */
 		1386A344624F40C391AE3A26 /* Pods_AlamofireAndGloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireAndGloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		3748602021D0A8F400C922E7 /* ViewLogoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLogoVC.swift; sourceTree = "<group>"; };
+		3748602221D0E78400C922E7 /* CompanyDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDataVC.swift; sourceTree = "<group>"; };
+		3748602421D0F5BC00C922E7 /* BottonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonView.swift; sourceTree = "<group>"; };
 		379ED5C621C9FEE800122987 /* AlamofireAndGloss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireAndGloss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379ED5C921C9FEE800122987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		379ED5CB21C9FEE800122987 /*  MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MainVC.swift"; sourceTree = "<group>"; };
@@ -167,6 +173,8 @@
 			children = (
 				379ED5FD21CA0FD900122987 /* CompanyDetailVC.swift */,
 				379ED5CB21C9FEE800122987 /*  MainVC.swift */,
+				3748602021D0A8F400C922E7 /* ViewLogoVC.swift */,
+				3748602221D0E78400C922E7 /* CompanyDataVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			children = (
 				373E47FD21CB99AD00922343 /* HeaderTableViewCell.swift */,
 				37FE419B21CCDE3E00962019 /* TableViewCell.swift */,
+				3748602421D0F5BC00C922E7 /* BottonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -454,10 +463,13 @@
 				379ED5FC21CA03C700122987 /* NetworkingService.swift in Sources */,
 				37FE419C21CCDE3E00962019 /* TableViewCell.swift in Sources */,
 				379ED5FA21CA036F00122987 /* Geolocation.swift in Sources */,
+				3748602121D0A8F400C922E7 /* ViewLogoVC.swift in Sources */,
 				379ED5CC21C9FEE800122987 /*  MainVC.swift in Sources */,
 				373E47FE21CB99AD00922343 /* HeaderTableViewCell.swift in Sources */,
 				379ED5FE21CA0FD900122987 /* CompanyDetailVC.swift in Sources */,
 				379ED5CA21C9FEE800122987 /* AppDelegate.swift in Sources */,
+				3748602321D0E78400C922E7 /* CompanyDataVC.swift in Sources */,
+				3748602521D0F5BC00C922E7 /* BottonView.swift in Sources */,
 				379ED5F821CA034800122987 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
