@@ -32,7 +32,8 @@ class CompanyDetailVC: UIViewController {
         idLabel.text = String(company.id!)
         jobIDLabel.text = String(company.job_id!)
         priorityLabel.text = String(company.priority!)
-        companyLabel.text = company.company!
+        companyLabel.numberOfLines = 0
+        companyLabel.text = "This is really really big and long company name that I had ever heared."
         latitudeLabel.text = String(company.geolocation!.latitude!)
         longitudeLabel.text = String(company.geolocation!.longitude!)
     }

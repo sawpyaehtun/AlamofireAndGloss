@@ -57,7 +57,7 @@ extension MainVC : UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "customCell") as! TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CellForCompanyTable.self)) as! CellForCompanyTable
         cell.setup(company:  companies[indexPath.row])
         cell.delegate = self
         return cell
@@ -73,7 +73,7 @@ extension MainVC : UITableViewDataSource
 extension MainVC : UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "headerCell") as! HeaderTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: HeaderForCompanyTableCell.self)) as! HeaderForCompanyTableCell
         cell.setUp()
         return cell.contentView
     }

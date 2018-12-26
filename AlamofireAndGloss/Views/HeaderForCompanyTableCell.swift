@@ -2,7 +2,7 @@
 
 import UIKit
 
-class HeaderTableViewCell: UITableViewCell {
+class HeaderForCompanyTableCell: UITableViewCell {
 
     @IBOutlet weak var jobIDLabel: UILabel!
     @IBOutlet weak var jobID: UILabel!

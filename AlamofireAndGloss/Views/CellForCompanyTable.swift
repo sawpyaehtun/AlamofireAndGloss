@@ -13,7 +13,7 @@ protocol buttonDelegate {
     func didDetailTapped(company : Company)
 }
 
-class TableViewCell: UITableViewCell {
+class CellForCompanyTable: UITableViewCell {
 
     @IBOutlet weak var jobIDLabel: UILabel!
     @IBOutlet weak var jobID: UILabel!

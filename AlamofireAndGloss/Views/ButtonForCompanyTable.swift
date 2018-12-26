@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class BottonView: UIButton {
+class ButtonForCompanyTable: UIButton {
 
     @IBInspectable var conorRadius : CGFloat = 0 {
         didSet{
